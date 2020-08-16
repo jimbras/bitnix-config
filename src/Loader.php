@@ -30,4 +30,9 @@ interface Loader {
      */
     public function load(string $file, callable $filter = null) : Settings;
 
+    /**
+     * @return array
+     */
+    public function files() : array;
+
 }
